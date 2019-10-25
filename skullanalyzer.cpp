@@ -201,11 +201,11 @@ void checkUserArguments(int argc, char *argv[])
             cout << "            format. This includes both the EFDs of the nasion-bregma       file with all calculated" << endl;
             cout << "            segment as well as all available HMIs.                         results.\n" << endl;
             cout << "    s       Silence output to terminal. Suitable for batch processing      All requested operations" << endl;
-            cout << "            several samples through a bash script or other programs.       are reported in terminal.\n" << endl;
-            cout << "To see how to cite skullanalyzer in publications enter:" << endl;
+            cout << "            several samples through a bash script or other programs.       are reported in terminal." << endl;
+            cout << "\nA compmlete User Manual & Algorithm Description can be found at https://doi.org/10.5281/zenodo.3519248" << endl;
+            cout << "To cite the skullanalyzer in publications or see its license enter:\n" << endl;
             cout << "   $ skullanalyzer --citation" << endl;
-            cout << "To see the license enter:" << endl;
-            cout << "   $ skullanalyzer --license" << endl;
+            cout << "   $ skullanalyzer --license\n" << endl;
             exit(EXIT_SUCCESS);
         }
         else if(!parameter.compare(license))
