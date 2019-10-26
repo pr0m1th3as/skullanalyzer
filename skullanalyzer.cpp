@@ -186,7 +186,7 @@ void checkUserArguments(int argc, char *argv[])
             cout << "with the skullanalyzer. The report also contains details of the optimization algorithms used for the" << endl;
             cout << "Nasion and Mastoidale landmarks to define their correct position on the cranial surface.\n" << endl;
             cout << "The program can take up to 4 discrete and independent parameters bundled in a single string argument" << endl;
-            cout << "beginning with a dash (-) as shown belos. The four letters, 'p', 'e', 'o', 's', can be set in any" << endl;
+            cout << "beginning with a dash (-) as shown below. The four letters, 'p', 'e', 'o', 's', can be set in any" << endl;
             cout << "random order after the initial (-) character.\n" << endl;
             cout << "   $ skullanalyzer -peos model.obj landmarks.pp" << endl;
             cout << "\nThe following table lists the functionality of each parameter as well as its default value. Note that" << endl;
