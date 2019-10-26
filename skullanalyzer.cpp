@@ -202,7 +202,9 @@ void checkUserArguments(int argc, char *argv[])
             cout << "            segment as well as all available HMIs.                         results.\n" << endl;
             cout << "    s       Silence output to terminal. Suitable for batch processing      All requested operations" << endl;
             cout << "            several samples through a bash script or other programs.       are reported in terminal." << endl;
-            cout << "\nA compmlete User Manual & Algorithm Description can be found at https://doi.org/10.5281/zenodo.3519248" << endl;
+            cout << "\nA complete User Manual & Algorithm Description can be found at https://doi.org/10.5281/zenodo.3519248" << endl;
+            cout << "A testing dataset comprising a cranial 3D model and its corresponding PickedPoints sidecar file can be" << endl;
+            cout << "downloaded from https://doi.org/10.5281/zenodo.3519103\n" << endl;
             cout << "To cite the skullanalyzer in publications or see its license enter:\n" << endl;
             cout << "   $ skullanalyzer --citation" << endl;
             cout << "   $ skullanalyzer --license\n" << endl;
