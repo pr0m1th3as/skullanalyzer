@@ -10,6 +10,6 @@ To compile from source enter:
   
 To see the help file enter:
 
-    $ skullanalyzer --help
+    $ ./skullanalyzer --help
 
 The supplementary GNU Octave function 'plot_features.m' can be used for visualizing the extracted geometric features. See the User Manual for more details.
