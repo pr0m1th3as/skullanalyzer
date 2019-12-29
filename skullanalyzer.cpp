@@ -171,13 +171,13 @@ void checkUserArguments(int argc, char *argv[])
             cout << "   right Porion       name=8" << endl;
             cout << "\nThe minimum required landmarks, which are used for defining the Frankfurt position of the analyzed" << endl;
             cout << "cranium are Nasion, Opisthion, left Orbitale, and left and right Porion. According to availability" << endl;
-            cout << "of additional landmarks the 'skullanalyzer' will calculale a number of geometric features from the" << endl;
+            cout << "of additional landmarks the 'skullanalyzer' will calculale a number of morphometric features from the" << endl;
             cout << "provided cranium and extract each feature in respective Comma Separated Values files as well as an" << endl;
             cout << "appropriate .mat data text format, which can be loaded for post-processing in GNU Octave programming" << endl;
             cout << "environment. All geometric features extracted in csv files can be visualized with the accompanying" << endl;
             cout << "'plot_features.m' function within the GNU Octave environment.\n" << endl;
-            cout << "The geometric features extracted by skullanalyzer are the Nasion-Bregma midsaggital segment, whose" << endl;
-            cout << "2D polyline is saved in the respective csv file and the corresponding Eliptic Fourier Descriptors are," << endl;
+            cout << "The morphometric features extracted by skullanalyzer are the Nasion-Bregma midsaggital segment, whose" << endl;
+            cout << "2D polyline is saved in the respective csv file and the corresponding Eliptic Fourier Descriptors are" << endl;
             cout << "saved in the .mat container, and a number of Height Map Images, which represent depth projections of" << endl;
             cout << "specific areas onto specific planes and are saved both in respective csv files as well as in the .mat" << endl;
             cout << "data container. The HMIs concern the supraorbital ridge, the occipital protuberance, and the lateral" << endl;
